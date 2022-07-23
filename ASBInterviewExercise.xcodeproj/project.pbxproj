@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80C616BA288C465F0025F940 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C616B9288C465F0025F940 /* Coordinator.swift */; };
+		80C616BC288C46BF0025F940 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C616BB288C46BF0025F940 /* AppCoordinator.swift */; };
 		DCF7BB0426B23DFF00AE0E0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF7BB0326B23DFF00AE0E0E /* AppDelegate.swift */; };
 		DCF7BB0626B23DFF00AE0E0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF7BB0526B23DFF00AE0E0E /* SceneDelegate.swift */; };
 		DCF7BB0826B23DFF00AE0E0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF7BB0726B23DFF00AE0E0E /* ViewController.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		80C616B9288C465F0025F940 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		80C616BB288C46BF0025F940 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		DCF7BB0026B23DFE00AE0E0E /* ASBInterviewExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASBInterviewExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF7BB0326B23DFF00AE0E0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCF7BB0526B23DFF00AE0E0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +86,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80C616B7288C462F0025F940 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				80C616B9288C465F0025F940 /* Coordinator.swift */,
+				80C616BB288C46BF0025F940 /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		80C616B8288C46400025F940 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DCF7BB3626B23EB800AE0E0E /* RestClient.swift */,
+				DCF7BB3826B23ED000AE0E0E /* DIManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		DCF7BAF726B23DFE00AE0E0E = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +127,8 @@
 		DCF7BB0226B23DFF00AE0E0E /* ASBInterviewExercise */ = {
 			isa = PBXGroup;
 			children = (
+				80C616B8288C46400025F940 /* Services */,
+				80C616B7288C462F0025F940 /* Coordinators */,
 				DCF7BB0326B23DFF00AE0E0E /* AppDelegate.swift */,
 				DCF7BB0526B23DFF00AE0E0E /* SceneDelegate.swift */,
 				DCF7BB0726B23DFF00AE0E0E /* ViewController.swift */,
@@ -112,8 +136,6 @@
 				DCF7BB0C26B23E0200AE0E0E /* Assets.xcassets */,
 				DCF7BB0E26B23E0200AE0E0E /* LaunchScreen.storyboard */,
 				DCF7BB1126B23E0200AE0E0E /* Info.plist */,
-				DCF7BB3626B23EB800AE0E0E /* RestClient.swift */,
-				DCF7BB3826B23ED000AE0E0E /* DIManager.swift */,
 			);
 			path = ASBInterviewExercise;
 			sourceTree = "<group>";
@@ -274,9 +296,11 @@
 			files = (
 				DCF7BB3726B23EB800AE0E0E /* RestClient.swift in Sources */,
 				DCF7BB0826B23DFF00AE0E0E /* ViewController.swift in Sources */,
+				80C616BA288C465F0025F940 /* Coordinator.swift in Sources */,
 				DCF7BB0426B23DFF00AE0E0E /* AppDelegate.swift in Sources */,
 				DCF7BB0626B23DFF00AE0E0E /* SceneDelegate.swift in Sources */,
 				DCF7BB3926B23ED000AE0E0E /* DIManager.swift in Sources */,
+				80C616BC288C46BF0025F940 /* AppCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
