@@ -20,6 +20,31 @@ class AppCoordinator: Coordinator {
     }
     
     func start() {
+        // The first time this coordinator started is to launch the table transaction
+        goToTransactionList()
+    }
+    
+    func goToTransactionList() {
+        
+        // Instantiate TransactionListTableView
+        guard let transactionListVC = storyboard.instantiateViewController(withIdentifier: "TransactionListController") as? TransactionListController else { return }
+        
+        // Instantiate TransactionViewModel
+        guard let transactionService = DIManager.shared.resolve(TransactionsService.self) else { return }
+        let transactionViewModel = TransactionsViewModel(transactionService: transactionService)
+        
+        // Set the Coordinator to the ViewModel
+        transactionViewModel.coordinator = self
+        
+        // Set the ViewModel to ViewController
+        transactionListVC.viewModel = transactionViewModel
+        
+        // Push it
+        navigationController.pushViewController(transactionListVC, animated: false)
+    }
+    
+    func goToTransactionDetail(transaction: TransactionViewModel) {
+        
         // TO-DO
     }
 }

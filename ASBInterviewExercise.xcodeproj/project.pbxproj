@@ -10,9 +10,15 @@
 		80C616BA288C465F0025F940 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C616B9288C465F0025F940 /* Coordinator.swift */; };
 		80C616BC288C46BF0025F940 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C616BB288C46BF0025F940 /* AppCoordinator.swift */; };
 		80C616BF288C49A40025F940 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C616BE288C49A40025F940 /* Enums.swift */; };
+		80C616C1288C4AE30025F940 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C616C0288C4AE30025F940 /* Constants.swift */; };
+		80C616C5288C4B2E0025F940 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C616C4288C4B2E0025F940 /* Transaction.swift */; };
+		80C616C7288C4B660025F940 /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C616C6288C4B660025F940 /* TransactionViewModel.swift */; };
+		80C616C9288C4B820025F940 /* TransactionViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C616C8288C4B820025F940 /* TransactionViewModels.swift */; };
+		80C616CB288C4BD00025F940 /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C616CA288C4BD00025F940 /* TransactionService.swift */; };
+		80C616CE288C4C880025F940 /* TransactionListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C616CD288C4C880025F940 /* TransactionListController.swift */; };
+		80C616D1288C4CD50025F940 /* TransactionListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C616D0288C4CD50025F940 /* TransactionListCell.swift */; };
 		DCF7BB0426B23DFF00AE0E0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF7BB0326B23DFF00AE0E0E /* AppDelegate.swift */; };
 		DCF7BB0626B23DFF00AE0E0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF7BB0526B23DFF00AE0E0E /* SceneDelegate.swift */; };
-		DCF7BB0826B23DFF00AE0E0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF7BB0726B23DFF00AE0E0E /* ViewController.swift */; };
 		DCF7BB0B26B23DFF00AE0E0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF7BB0926B23DFF00AE0E0E /* Main.storyboard */; };
 		DCF7BB0D26B23E0200AE0E0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF7BB0C26B23E0200AE0E0E /* Assets.xcassets */; };
 		DCF7BB1026B23E0200AE0E0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF7BB0E26B23E0200AE0E0E /* LaunchScreen.storyboard */; };
@@ -44,10 +50,16 @@
 		80C616B9288C465F0025F940 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		80C616BB288C46BF0025F940 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		80C616BE288C49A40025F940 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		80C616C0288C4AE30025F940 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		80C616C4288C4B2E0025F940 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		80C616C6288C4B660025F940 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		80C616C8288C4B820025F940 /* TransactionViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModels.swift; sourceTree = "<group>"; };
+		80C616CA288C4BD00025F940 /* TransactionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionService.swift; sourceTree = "<group>"; };
+		80C616CD288C4C880025F940 /* TransactionListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListController.swift; sourceTree = "<group>"; };
+		80C616D0288C4CD50025F940 /* TransactionListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListCell.swift; sourceTree = "<group>"; };
 		DCF7BB0026B23DFE00AE0E0E /* ASBInterviewExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASBInterviewExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF7BB0326B23DFF00AE0E0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCF7BB0526B23DFF00AE0E0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DCF7BB0726B23DFF00AE0E0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCF7BB0A26B23DFF00AE0E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCF7BB0C26B23E0200AE0E0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCF7BB0F26B23E0200AE0E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -102,6 +114,7 @@
 			children = (
 				DCF7BB3626B23EB800AE0E0E /* RestClient.swift */,
 				DCF7BB3826B23ED000AE0E0E /* DIManager.swift */,
+				80C616CA288C4BD00025F940 /* TransactionService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -110,8 +123,42 @@
 			isa = PBXGroup;
 			children = (
 				80C616BE288C49A40025F940 /* Enums.swift */,
+				80C616C0288C4AE30025F940 /* Constants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		80C616C2288C4B060025F940 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				80C616C6288C4B660025F940 /* TransactionViewModel.swift */,
+				80C616C8288C4B820025F940 /* TransactionViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		80C616C3288C4B130025F940 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				80C616C4288C4B2E0025F940 /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		80C616CC288C4C680025F940 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				80C616CD288C4C880025F940 /* TransactionListController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		80C616CF288C4CB70025F940 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				80C616D0288C4CD50025F940 /* TransactionListCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		DCF7BAF726B23DFE00AE0E0E = {
@@ -137,12 +184,15 @@
 		DCF7BB0226B23DFF00AE0E0E /* ASBInterviewExercise */ = {
 			isa = PBXGroup;
 			children = (
+				80C616CF288C4CB70025F940 /* Cells */,
+				80C616CC288C4C680025F940 /* Controllers */,
+				80C616C3288C4B130025F940 /* Models */,
+				80C616C2288C4B060025F940 /* ViewModels */,
 				80C616BD288C49960025F940 /* Helpers */,
 				80C616B8288C46400025F940 /* Services */,
 				80C616B7288C462F0025F940 /* Coordinators */,
 				DCF7BB0326B23DFF00AE0E0E /* AppDelegate.swift */,
 				DCF7BB0526B23DFF00AE0E0E /* SceneDelegate.swift */,
-				DCF7BB0726B23DFF00AE0E0E /* ViewController.swift */,
 				DCF7BB0926B23DFF00AE0E0E /* Main.storyboard */,
 				DCF7BB0C26B23E0200AE0E0E /* Assets.xcassets */,
 				DCF7BB0E26B23E0200AE0E0E /* LaunchScreen.storyboard */,
@@ -305,14 +355,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C616CE288C4C880025F940 /* TransactionListController.swift in Sources */,
+				80C616D1288C4CD50025F940 /* TransactionListCell.swift in Sources */,
 				DCF7BB3726B23EB800AE0E0E /* RestClient.swift in Sources */,
-				DCF7BB0826B23DFF00AE0E0E /* ViewController.swift in Sources */,
 				80C616BA288C465F0025F940 /* Coordinator.swift in Sources */,
+				80C616C9288C4B820025F940 /* TransactionViewModels.swift in Sources */,
 				DCF7BB0426B23DFF00AE0E0E /* AppDelegate.swift in Sources */,
+				80C616C7288C4B660025F940 /* TransactionViewModel.swift in Sources */,
+				80C616C5288C4B2E0025F940 /* Transaction.swift in Sources */,
 				DCF7BB0626B23DFF00AE0E0E /* SceneDelegate.swift in Sources */,
 				DCF7BB3926B23ED000AE0E0E /* DIManager.swift in Sources */,
 				80C616BF288C49A40025F940 /* Enums.swift in Sources */,
 				80C616BC288C46BF0025F940 /* AppCoordinator.swift in Sources */,
+				80C616C1288C4AE30025F940 /* Constants.swift in Sources */,
+				80C616CB288C4BD00025F940 /* TransactionService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

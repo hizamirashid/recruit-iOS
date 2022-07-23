@@ -14,7 +14,7 @@ class DIManager {
     var assembler: Assembler
     
     init() {
-        let assembler = Assembler([ServiceAssembly()])
+        let assembler = Assembler([ServiceAssembly(), TransactionServiceAssembly()])
         self.assembler = assembler
     }
     
@@ -27,6 +27,14 @@ class ServiceAssembly: Assembly {
     func assemble(container: Container) {
         container.register(RestClient.self) { resolver in
             return RestClient()
+        }.inObjectScope(.transient)
+    }
+}
+
+class TransactionServiceAssembly: Assembly {
+    func assemble(container: Container) {
+        container.register(TransactionsService.self) { resolver in
+            return TransactionsService()
         }.inObjectScope(.transient)
     }
 }
