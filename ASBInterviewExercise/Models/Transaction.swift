@@ -18,7 +18,7 @@ struct Transaction: Codable {
     }
     
     func getGST() -> Double {
-        return abs(getAmount() * 0.15) // to make value to always become positive
+        return abs(getAmount() * 0.15) // use abs() to make value to always become positive
     }
     
     func getDate() -> String {

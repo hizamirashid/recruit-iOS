@@ -19,7 +19,10 @@ class TransactionsService: TransactionsServiceProtocol {
             switch result {
             case .success(let transactions):
                 DispatchQueue.main.async {
+                    // sort transaction array by transactionDate
                     let sortedTransactions = transactions.sorted { $0.transactionDate > $1.transactionDate }
+                    
+                    // map array to TransactionViewModels
                     let transactionViewModels = sortedTransactions.map({ return TransactionViewModel(transaction: $0) })
                     completion(true, transactionViewModels, nil)
                 
