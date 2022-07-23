@@ -17,6 +17,7 @@
 		80C616CB288C4BD00025F940 /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C616CA288C4BD00025F940 /* TransactionService.swift */; };
 		80C616CE288C4C880025F940 /* TransactionListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C616CD288C4C880025F940 /* TransactionListController.swift */; };
 		80C616D1288C4CD50025F940 /* TransactionListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C616D0288C4CD50025F940 /* TransactionListCell.swift */; };
+		80C616D3288C51D80025F940 /* TransactionDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C616D2288C51D80025F940 /* TransactionDetailController.swift */; };
 		DCF7BB0426B23DFF00AE0E0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF7BB0326B23DFF00AE0E0E /* AppDelegate.swift */; };
 		DCF7BB0626B23DFF00AE0E0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF7BB0526B23DFF00AE0E0E /* SceneDelegate.swift */; };
 		DCF7BB0B26B23DFF00AE0E0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF7BB0926B23DFF00AE0E0E /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 		80C616CA288C4BD00025F940 /* TransactionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionService.swift; sourceTree = "<group>"; };
 		80C616CD288C4C880025F940 /* TransactionListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListController.swift; sourceTree = "<group>"; };
 		80C616D0288C4CD50025F940 /* TransactionListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListCell.swift; sourceTree = "<group>"; };
+		80C616D2288C51D80025F940 /* TransactionDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailController.swift; sourceTree = "<group>"; };
 		DCF7BB0026B23DFE00AE0E0E /* ASBInterviewExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASBInterviewExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF7BB0326B23DFF00AE0E0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCF7BB0526B23DFF00AE0E0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				80C616CD288C4C880025F940 /* TransactionListController.swift */,
+				80C616D2288C51D80025F940 /* TransactionDetailController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				DCF7BB3726B23EB800AE0E0E /* RestClient.swift in Sources */,
 				80C616BA288C465F0025F940 /* Coordinator.swift in Sources */,
 				80C616C9288C4B820025F940 /* TransactionViewModels.swift in Sources */,
+				80C616D3288C51D80025F940 /* TransactionDetailController.swift in Sources */,
 				DCF7BB0426B23DFF00AE0E0E /* AppDelegate.swift in Sources */,
 				80C616C7288C4B660025F940 /* TransactionViewModel.swift in Sources */,
 				80C616C5288C4B2E0025F940 /* Transaction.swift in Sources */,

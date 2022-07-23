@@ -45,6 +45,19 @@ class AppCoordinator: Coordinator {
     
     func goToTransactionDetail(transaction: TransactionViewModel) {
         
-        // TO-DO
+        // Instantiate TransactionListTableView
+        guard let transactionDetailVC = storyboard.instantiateViewController(withIdentifier: "TransactionDetailController") as? TransactionDetailController else { return }
+        
+        // Instantiate TransactionViewModel
+        let transactionDetailViewModel = transaction
+        
+        // Set the Coordinator to the ViewModel
+        transactionDetailViewModel.coordinator = self
+        
+        // Set the ViewModel to ViewController
+        transactionDetailVC.viewModel = transactionDetailViewModel
+        
+        // Present
+        navigationController.present(transactionDetailVC, animated: true, completion: nil)
     }
 }
